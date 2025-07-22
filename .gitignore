@@ -5,6 +5,7 @@
 # python cache and bytecode
 __pycache__/
 **/__pycache__/
+**/__pycache__2/
 *.py[cod]
 
 # local faiss index files
@@ -12,3 +13,6 @@ faiss_index/
 
 # local file to test
 test.py
+
+# .DS_Store
+.DS_Store
