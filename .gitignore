@@ -1,0 +1,14 @@
+#local variables and environment
+.env
+.venv
+
+# python cache and bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# local faiss index files
+faiss_index/
+
+# local file to test
+test.py
