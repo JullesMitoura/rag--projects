@@ -12,3 +12,4 @@ class Settings(BaseSettings):
     embedding_deployment_model: Optional[str] = None
     llm_api_version: Optional[str] = None
     embedding_api_version: Optional[str] = None
+    groq_api_key: Optional[str] = None
